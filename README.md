@@ -2,7 +2,6 @@
 
 A Claude Code plugin that turns an approved RFC (plus an optional PRD) into a repo-grounded implementation plan through a four-stage pipeline: resolve any implementation-level decisions the RFC leaves open, draft the plan, clean it, then verify it against the RFC and refine until it either fully covers the RFC or is blocked only by decisions a human must make.
 
-This is the natural next stage after [`prd-to-rfc`](../prd-to-rfc-plugin): that plugin takes a PRD to an RFC; this one takes the RFC the rest of the way to a task list ready for execution. The two are separate, independently installable plugins — this one only reads the RFC (and optionally the PRD) as input files, it doesn't depend on the other plugin being installed.
 
 ## What it does
 
